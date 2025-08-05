@@ -1,70 +1,82 @@
-# React Vite Template
+# ⚛️ React + Vite Template
 
-This project is a **React + Vite template** designed to help you quickly start modern web applications with best-in-class tooling and developer experience.
+[![Node.js](https://img.shields.io/badge/node-22.18.0-blue?logo=node.js)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/react-19.1.0-61DAFB?logo=react)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-4.1.11-38B2AC?logo=tailwindcss)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/vite-7.0.4-646CFF?logo=vite)](https://vitejs.dev/)
+[![Storybook](https://img.shields.io/badge/storybook-9.1.0-FF4785?logo=storybook)](https://storybook.js.org/)
+[![Vitest](https://img.shields.io/badge/vitest-3.2.4-6E9F18?logo=vitest)](https://vitest.dev/)
+
+A **React + Vite** starter template to help you quickly build modern web applications with top-tier tooling and developer experience.
+
+---
 
 ## 🚀 Features
 
-- **React** – Build fast, interactive user interfaces.
-- **Vite** – Lightning-fast development server and optimized production builds.
-- **Storybook** – Develop, test, and document UI components in isolation.
-- **Vitest** – Blazing fast unit testing framework with Vite integration.
-- **ESLint** – Enforce code quality and consistency with pluggable linting.
-- **Prettier** – Automatic code formatting for a consistent style.
-- **Husky** – Git hooks for automating tasks like linting and formatting before commits.
+- **React** – Build interactive UIs efficiently.
+- **Vite** – Lightning-fast development server & optimized builds.
+- **Storybook** – Develop and document components in isolation.
+- **Vitest** – Fast, Vite-native testing framework.
+- **ESLint** – Enforce code quality and style consistency.
+- **Prettier** – Automatic, opinionated code formatting.
+- **Husky** – Git hooks to automate pre-commit checks.
 
-## 📦 Included Tooling
+---
 
-### [React](https://react.dev/)
+## 📦 Tooling Overview
 
-A popular JavaScript library for building user interfaces, especially single-page applications.
+### 🔹 [React](https://react.dev/)
 
-### [Vite](https://vitejs.dev/)
+A declarative JavaScript library for building UI components and SPAs.
 
-A next-generation frontend build tool that provides instant server start and fast hot module replacement.
+### 🔹 [Vite](https://vitejs.dev/)
 
-### [Storybook](https://storybook.js.org/)
+A fast build tool with instant dev server startup and HMR.
 
-A tool for developing and testing UI components in isolation, making it easier to build and document reusable components.
+### 🔹 [Storybook](https://storybook.js.org/)
 
-### [Vitest](https://vitest.dev/)
+A UI development environment for building, testing, and documenting components.
 
-A fast unit testing framework built for Vite, supporting instant feedback and modern testing features.
+### 🔹 [Vitest](https://vitest.dev/)
 
-### [ESLint](https://eslint.org/)
+A blazing-fast unit testing framework with first-class Vite support.
 
-A pluggable linting utility for JavaScript and TypeScript, helping you catch errors and enforce coding standards.
+### 🔹 [ESLint](https://eslint.org/)
 
-### [Prettier](https://prettier.io/)
+Configurable linter for identifying and fixing code quality issues.
 
-An opinionated code formatter that ensures your codebase has a consistent style.
+### 🔹 [Prettier](https://prettier.io/)
 
-### [Husky](https://typicode.github.io/husky/)
+Code formatter that enforces a consistent style across your codebase.
 
-A tool for managing Git hooks, allowing you to run scripts (like linting or formatting) automatically before commits and pushes.
+### 🔹 [Husky](https://typicode.github.io/husky/)
+
+Git hooks manager to run checks (like lint/format) before commits.
+
+---
 
 ## 🛠️ Getting Started
 
-1. **Install dependencies:**
-   ```sh
-   pnpm install
-   ```
-2. **Start the development server:**
-   ```sh
-   pnpm dev
-   ```
-3. **Run Storybook:**
-   ```sh
-   pnpm storybook
-   ```
-4. **Run tests:**
-   ```sh
-   pnpm test
-   ```
+```bash
+# 1. Install dependencies
+pnpm install
+
+# 2. Start the dev server
+pnpm dev
+
+# 3. Launch Storybook
+pnpm storybook
+
+# 4. Run tests
+pnpm test
+```
 
 ## 📄 License
 
-This project is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+Licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
----
+## 👤 Author
+
+**[pleaobraga](https://github.com/pleaobraga)**
 
 > **Note:** This template is intended to provide a solid foundation for modern React projects. Feel free to customize it to fit your needs!
