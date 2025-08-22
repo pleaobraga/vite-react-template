@@ -13,7 +13,6 @@ const dirname =
     ? __dirname
     : path.dirname(fileURLToPath(import.meta.url))
 
-// More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
@@ -25,9 +24,16 @@ export default defineConfig({
     projects: [
       {
         extends: true,
+        test: {
+          name: 'component-test',
+          environment: 'jsdom',
+          setupFiles: ['./vitest.setup.ts'],
+          globals: true,
+        },
+      },
+      {
+        extends: true,
         plugins: [
-          // The plugin will run tests for the stories defined in your Storybook config
-          // See options at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon#storybooktest
           storybookTest({
             configDir: path.join(dirname, '.storybook'),
           }),
@@ -45,13 +51,6 @@ export default defineConfig({
             ],
           },
           setupFiles: ['.storybook/vitest.setup.ts'],
-        },
-      },
-      {
-        test: {
-          environment: 'jsdom',
-          setupFiles: ['./vitest.setup.ts'],
-          globals: true,
         },
       },
     ],
